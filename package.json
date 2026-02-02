@@ -1,0 +1,23 @@
+{
+  "name": "electron-dailytask",
+  "version": "1.0.0",
+  "description": "A daily task application with countdown timers.",
+  "author": "User",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder -w"
+  },
+  "build": {
+    "appId": "com.dailytask.app",
+    "productName": "Daily Task Timer",
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^40.1.0",
+    "electron-builder": "^26.7.0"
+  }
+}
